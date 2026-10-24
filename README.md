@@ -94,6 +94,8 @@ export API_KEY="YOUR_API_KEY_HERE"
 
 {Find Your API KEY AND PASTE IT INTO THE  CODE ABOVE }
 
+![Lab screenshot](image-01.png)
+
 Then run:
 
 curl -X POST \
@@ -155,6 +157,8 @@ Now generate the MP3:
 python3 tts_decode.py --input "synthesize-text.txt" --output "synthesize-text-audio.mp3"
 
 (IF NOT COMPLTED HERE RUN THE BELOW CODES AGAIN)
+
+![Lab screenshot](image-02.png)
 
 You are in the correct place! The nano synthesize-text.json editor is open, and the file is currently empty.
 
@@ -223,6 +227,8 @@ Run:
 head -c 200 synthesize-text.txt
 
 (Do not close the SSH window yet. We still need to create the audio file and verify Task 2 in your lab.)
+
+![Lab screenshot](image-03.png)
 
 AFTER THAT
 
@@ -322,6 +328,8 @@ cat response.json
 
 #### Step 4: Verify your PROGRESS
 
+![Lab screenshot](image-04.png)
+
 PROGRESS NOT COMPLETED
 
 Let's fix it.
@@ -363,6 +371,8 @@ Then check the response:
 cat response.json
 
 #### Step 4: Check lab progress
+
+![Lab screenshot](image-05.png)
 
 we fixed the API key issue!
 
@@ -445,26 +455,4 @@ https://translation.googlepais.com/language/translate/v2/detect?key=${API_KEY} \
 #### Step 2: Check lab progress
 
 
-## Embedded images
-
-The following images were embedded in the original Word document:
-
-### image-01.png
-
-![image-01.png](images/image-01.png)
-
-### image-02.png
-
-![image-02.png](images/image-02.png)
-
-### image-03.png
-
-![image-03.png](images/image-03.png)
-
-### image-04.png
-
-![image-04.png](images/image-04.png)
-
-### image-05.png
-
-![image-05.png](images/image-05.png)
+## COMPLETED 
